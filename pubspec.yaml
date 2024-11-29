@@ -1,0 +1,106 @@
+name: myapp
+description: "Proyek Flutter baru."
+
+# Mencegah paket ini dipublikasikan secara tidak sengaja ke pub.dev.
+publish_to: 'none'  # Hapus baris ini jika Anda ingin mempublikasikannya ke pub.dev
+
+# Versi dan nomor build.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_spinkit: ^5.2.1
+  flutter_native_splash: ^2.4.3
+  audioplayers: ^6.1.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_native_splash:
+  color: "#ffffff"  # Warna latar belakang untuk splash screen
+  image: assets/img/almiftah.png  # Gambar untuk splash screen
+  android: true  # Mengaktifkan splash untuk Android
+  ios: true  # Mengaktifkan splash untuk iOS
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/almiftah.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/logo.png
+    - assets/img/jilid01.png
+    - assets/img/jilid02.png
+    - assets/img/jilid03.png
+    - assets/img/jilid04.png
+    - assets/img/tashrif.png
+    - assets/img/fathul qrb.png
+
+    # File musik terpisah
+    - assets/mp3/flmb.mp3
+    - assets/mp3/im.mp3
+    - assets/mp3/ma.mp3
+    - assets/mp3/ak.mp3
+    - assets/mp3/rk.mp3
+    - assets/mp3/imdm.mp3
+    - assets/mp3/aim.mp3
+    - assets/mp3/iin.mp3
+    - assets/mp3/sda.mp3
+    - assets/mp3/anufm.mp3
+
+    # Musik Jilid 01
+    - assets/Jilid1/ArtiIsimMurob.mp3
+    - assets/Jilid1/Isimisimyanglima.mp3
+    - assets/Jilid1/Macam-macamIllat.mp3
+    - assets/Jilid1/MurobMabni.mp3
+    - assets/Jilid1/RukunKalamdanTandaisimdanFiil.mp3
+    - assets/Jilid1/TandaI_robIsim.mp3
+    - assets/Jilid1/WazanIsimGhoiruMunshorif.mp3
+
+        # Musik Jilid 02
+    - assets/Jilid2/Isim Ma_rifat.mp3
+    - assets/Jilid2/Shilah Dan _Aid.mp3
+    - assets/Jilid2/Isim Isyaroh.mp3
+    - assets/Jilid2/Kalimat Yang Harus Mudhof.mp3
+    - assets/Jilid2/Tanda Perempuan.mp3
+    - assets/Jilid2/Isim _Adad.mp3
+    - assets/Jilid2/Aku Anak Idadiyah.mp3
+    - assets/Jilid2/Jamid Mustaq.mp3
+    - assets/Jilid2/Wazan Isim Mustaq.mp3
+    #- assets/Jilid2/WazanIsimGhoiruMunshorif.mp3
+
+    # Musik Jilid 03
+    - assets/Jilid3/Fi_il Mu_rob dan Mabni.mp3
+    - assets/Jilid3/Fil-fil Yang Lima.mp3
+    - assets/Jilid3/Amil Nashob.mp3
+    - assets/Jilid3/Amil Jazm.mp3
+    #- assets/Jilid3/MubtadaBolehNakiroh.mp3
+    - assets/Jilid3/Huruf-huruf Illat.mp3
+
+    # Musik Jilid 04
+    - assets/Jilid4/MubtadaBolehNakiroh.mp3
+    - assets/Jilid4/IsimYangRofadanNashob.mp3
+    - assets/Jilid4/maknadzorof.mp3
+    - assets/Jilid4/amilnawasikh.mp3
+    - assets/Jilid4/MustasnanyaIlla.mp3
+    - assets/Jilid4/untukmakna.mp3
+
+  fonts:
+    - family: Amiri
+      fonts:
+        - asset: assets/font/Amiri-Regular.ttf
+        - asset: assets/font/Amiri-Bold.ttf
+          weight: 700
+        - asset: assets/font/Amiri-Italic.ttf
+          style: italic
